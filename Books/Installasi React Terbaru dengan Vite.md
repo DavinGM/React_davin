@@ -1,0 +1,114 @@
+# 🪄 Instalasi React JS Menggunakan Vite
+
+Dokumentasi ini menjelaskan langkah-langkah untuk membuat project **React JS** menggunakan **Vite** sebagai build tool.  
+Vite memberikan performa yang cepat dan setup yang sederhana dibandingkan dengan CRA (Create React App).
+
+---
+
+## 🧩 Persyaratan Awal
+
+Sebelum mulai, pastikan kamu sudah menginstal:
+- [Node.js](https://nodejs.org/) (versi 18 ke atas disarankan)
+- npm (terinstal otomatis bersama Node.js)
+- Terminal / Command Prompt / PowerShell
+- (Opsional) Code Editor seperti [VS Code](https://code.visualstudio.com/)
+
+Cek versi Node.js dan npm kamu:
+```bash
+node -v
+npm -v
+```
+
+## ⚙️ Membuat Project React dengan Vite
+
+Buka terminal dan jalankan perintah berikut:
+
+```bash
+npm create vite@latest my-react-app
+```
+
+### Pilih Framwork Varian
+
+```bash
+JavaScript
+```
+atau :
+```bash
+TypeScript
+```
+
+### Masuk ke Folder 
+```bash
+cd my-react-app
+```
+
+### Install Dependecis
+```bash
+npm install
+```
+
+## 🚀 Menjalankan Project
+Setelah kamu lakukan depenncy Kamu Bisa jalankan Perintah ini untuk Menampilkan nya di Browser
+```bash
+npm run dev
+```
+kemudian buka alamat yang di berikan Bash ke kamu biasa nya:
+```arduino
+http://localhost:5173/
+```
+atau berupa
+```arduino
+  VITE v7.1.9  ready in 719 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+20.38.21 [vite] (client) hmr update /src/App.jsx
+
+```
+
+ketikan ctrl + clik nama URL yang di berikan untuk otomatis membuka View Project React Kamu
+
+## Structur Folder Awal 
+karena Project sudah di buat kamu bisa cek Folder Folder nya . Berikut Struktur default dari Vite + React
+
+```pgsql
+my-react-app/
+├─ node_modules/
+├─ public/
+├─ src/
+│  ├─ assets/
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ main.jsx
+├─ index.html
+├─ package.json
+├─ vite.config.js
+```
+
+Keterangan Singkat:
+
+- <mark> main.jsx </mark> → entry point aplikasi.
+- <mark> App.jsx </mark> → komponen utama React.
+- <mark> vite.config.js </mark> → konfigurasi build Vite.
+- <mark> public/ </mark> → file statis (gambar, ikon, dll).
+
+## Tips Tambahan
+
+- Untuk menggunakan Yarn:   
+```bash
+yarn create vite
+```
+- untuk Menggukan Ts (TypeScript) 
+```bash
+npm create vite@latest my-react-app -- --template react-ts
+```
+- Untuk Menghentikan Project atau Server
+tekan <mark> Ctrl + C </mark>
+```bash
+^C
+```
+
+Dokumentasi Resmi bisa kamu baca di sini 
+- [React ↗](https://react.dev/)
+- [Vite ↗](https://vitejs.dev/guide/)
+- [node.js ↗](https://nodejs.org/en/docs)
