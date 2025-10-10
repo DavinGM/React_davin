@@ -21,7 +21,7 @@ Untuk Membangun sistem antar muka yang cepat,moderen dan dinamis disini saya men
 
 di sini saya membagi beberapa Tahapan agar Pembelajaran Lebih Mudah dan dapat di buka kambali kapanpun
 
-1.[`Books`](books/)di Folder inin Saya Sediakan Khusus Catatan dan Riwatat apa saja yang saya butuhkan dalam membangun React mulai dari Dokumentasi,Catatan,Syntaks,Rumus dan masih banyak lain nya
+1.[`Books`](Books/)di Folder inin Saya Sediakan Khusus Catatan dan Riwatat apa saja yang saya butuhkan dalam membangun React mulai dari Dokumentasi,Catatan,Syntaks,Rumus dan masih banyak lain nya
 
 2.`package.json` folder Khusus yang bisa di Configurasi oleh Developer expred di sini Beberapa Perintah PowerFull dari Node di sediakan saya banyak melakukan Configurasi ini dalam pembangunan Apllikasi `Electron.js` namun Saat ini repositori github belum saya bagikan secara Public tapi anda bisa melihat nya dengan klik [di sini](#) ketika saya selesai membangun aplikasi tersebut
 
