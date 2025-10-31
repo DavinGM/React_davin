@@ -54,3 +54,18 @@ dist-ssr
 *.sw?
 
 ```
+
+Jalan kan Kode ini untuk Melakakuna Fresh pada Pages github
+```bash
+npm install
+```
+dan :
+
+```bash
+npm build
+```
+
+
+Lisensi
+---
+Jika Anda ingin mengkloning proyek ini, pastikan lisensi dan izin telah diberikan oleh pembuatnya. Silakan hubungi davin.gm.etc@gmail.com. Proyek ini berada di bawah naungan (Etc.). Semua hak dan kebijakan privasi akan ditindaklanjuti oleh perusahaan.
