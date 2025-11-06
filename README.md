@@ -1,5 +1,23 @@
 # React + Vite
 
+
+## Start Project
+
+- pastikan sebelum kamu Menjalankan Project React ini usahakan untuk Tidak menggunakan Bash/CMD yang aneh-aneh seperti powershell atau pun GitBash dan juga lain sebagai nya pakai saja CMD bawaan Sistem Operasi kamu seperti command Prompt nah Kenapa bisa tidak jalan itu karena alasan ke amanan Kamu bisa cek [di sini](Books/Perpustakaan/Powwer%20Shell%20tidak%20bisa%20menjalankan%20Vite.md)
+- Untuk Membuka Port Server Local dengan Vite kamu bisa ketikan Di bash
+```bash
+npm run dev
+```
+atau cukup Kerik 
+```Vite
+Vite
+```
+
+Jika kamu Memakai Yarn kamu bisa ketikan 
+```bash
+yarn Start
+```
+
 Templat ini menyediakan pengaturan minimal agar React dapat berfungsi di Vite dengan HMR dan beberapa aturan ESLint.
 Saat ini, terdapat dua plugin resmi yang tersedia:
 
@@ -21,11 +39,11 @@ Untuk Membangun sistem antar muka yang cepat,moderen dan dinamis disini saya men
 
 di sini saya membagi beberapa Tahapan agar Pembelajaran Lebih Mudah dan dapat di buka kambali kapanpun
 
-1.[`Books`](Books/)di Folder inin Saya Sediakan Khusus Catatan dan Riwatat apa saja yang saya butuhkan dalam membangun React mulai dari Dokumentasi,Catatan,Syntaks,Rumus dan masih banyak lain nya
+1.📖[`Books`](Books/)di Folder inin Saya Sediakan Khusus Catatan dan Riwatat apa saja yang saya butuhkan dalam membangun React mulai dari Dokumentasi,Catatan,Syntaks,Rumus dan masih banyak lain nya
 
-2.`package.json` folder Khusus yang bisa di Configurasi oleh Developer expred di sini Beberapa Perintah PowerFull dari Node di sediakan saya banyak melakukan Configurasi ini dalam pembangunan Apllikasi `Electron.js` namun Saat ini repositori github belum saya bagikan secara Public tapi anda bisa melihat nya dengan klik [di sini](#) ketika saya selesai membangun aplikasi tersebut
+2.📦[`package.json`](package.json) file Khusus yang bisa di Configurasi oleh Developer expred di sini Beberapa Perintah PowerFull dari Node di sediakan saya banyak melakukan Configurasi ini dalam pembangunan Apllikasi `Electron.js` namun Saat ini repositori github belum saya bagikan secara Public tapi anda bisa melihat nya dengan klik [di sini](#) ketika saya selesai membangun aplikasi tersebut
 
-3.`.gitignore`  adalah sebuah file konfigurasi yang digunakan oleh Git, sistem kontrol versi terpopuler, untuk memberi tahu file dan folder mana yang harus diabaikan atau tidak dilacak. Artinya, perubahan pada file-file yang terdaftar di dalamnya tidak akan terdeteksi oleh Git. dapat di artikan `.gitignore` ini sanggat berperan penting untuk stabilitas pembagunan aplikasi dengan github anda bisa lihat di sini apa saja yang tidak masuk ke github
+3.🦺`.gitignore`  adalah sebuah file konfigurasi yang digunakan oleh Git, sistem kontrol versi terpopuler, untuk memberi tahu file dan folder mana yang harus diabaikan atau tidak dilacak. Artinya, perubahan pada file-file yang terdaftar di dalamnya tidak akan terdeteksi oleh Git. dapat di artikan `.gitignore` ini sanggat berperan penting untuk stabilitas pembagunan aplikasi dengan github anda bisa lihat di sini apa saja yang tidak masuk ke github
 
 ```arduio
 # Logs
@@ -66,6 +84,27 @@ npm build
 ```
 
 
+## Perpustakaan
+
+<!-- table daftar daftar markdown -->
+
+| Perpustakaan | Link |
+| :--- | :--- |
+| [PowerShell](Books/Perpustakaan/Powwer%20Shell%20tidak%20bisa%20menjalankan%20Vite.md) | [PowerShell](Books/Perpustakaan/Powwer%20Shell%20tidak%20bisa%20menjalankan%20Vite.md) |
+| [Bash](Books/Perpustakaan/Bash%20tidak%20bisa%20menjalankan%20Vite.md) | [Bash](Books/Perpustakaan/Bash%20tidak%20bisa%20menjalankan%20Vite.md) |
+| [Vite](Books/Perpustakaan/Vite%20tidak%20bisa%20menjalankan%20Vite.md) | [Vite](Books/Perpustakaan/Vite%20tidak%20bisa%20menjalankan%20Vite.md) |
+| [React](Books/Perpustakaan/React%20tidak%20bisa%20menjalankan%20Vite.md) | [React](Books/Perpustakaan/React%20tidak%20bisa%20menjalankan%20Vite.md) |
+| [Deploy Project React di Github](Books/Perpustakaan/Deploy%20Project%20React%20di%20Github.md) | [Deploy Project React di Github](Books/Perpustakaan/Deploy%20Project%20React%20di%20Github.md) |
+
+
+
+
+
+---
+
+
+
+
 Lisensi
 ---
-Jika Anda ingin mengkloning proyek ini, pastikan lisensi dan izin telah diberikan oleh pembuatnya. Silakan hubungi davin.gm.etc@gmail.com. Proyek ini berada di bawah naungan (Etc.). Semua hak dan kebijakan privasi akan ditindaklanjuti oleh perusahaan.
+Jika Anda ingin mengkloning proyek ini, pastikan lisensi dan izin telah diberikan oleh pembuatnya. Silakan hubungi davin.gm.etc@gmail.com. Proyek ini berada di bawah naungan (Etc.). Semua hak dan kebijakan privasi akan ditindaklanjuti oleh perusahaan.1`
